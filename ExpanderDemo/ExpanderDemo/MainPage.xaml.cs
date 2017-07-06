@@ -25,6 +25,18 @@ namespace ExpanderDemo
         public MainPage()
         {
             this.InitializeComponent();
+            //Button.SizeChanged += Button_SizeChanged;
+         
         }
+
+       // private void Button_SizeChanged(object sender, SizeChangedEventArgs e)
+       // {
+       //     ssss.Text = e.NewSize.Height.ToString();
+       // }
+
+       // private void Button_Click(object sender, RoutedEventArgs e)
+       // {
+       //var v=     Button.ActualHeight;
+       // }
     }
 }
